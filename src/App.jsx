@@ -85,7 +85,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/app'>
+      <BrowserRouter>
           <Routes>
             <Route path='/' element={<>
               <Header handleLoginForm={handleLoginForm} />
