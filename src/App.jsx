@@ -5,7 +5,7 @@ import { Maps } from './components/Maps.jsx';
 import { List } from './components/List.jsx';
 import { Input } from './components/Input.jsx';
 import { Login } from './components/Login.jsx';
-import {Routes, Route, BrowserRouter } from "react-router-dom";
+import {Routes, Route, BrowserRouter, Link } from "react-router-dom";
 import { ConfirmEmailPage } from './components/ConfirmEmailPage.jsx';
 import axios from 'axios';
 import './styles/App.css';
@@ -87,7 +87,7 @@ function App() {
     <>
       <BrowserRouter>
           <Routes>
-            <Route exact path='/' element={<>
+            <Route path='/' element={<>
               <Header handleLoginForm={handleLoginForm} />
               <Input handleSearch={handleSearch} searchField={searchField} markers={hubData.data?.groupedProducts || []} hubData={hubData} />
               <Login loginForm={loginForm} handleLoginForm={handleLoginForm} />
@@ -100,14 +100,14 @@ function App() {
               <List hubData={hubData} searchField={searchField} />
               <Footer />
             </>} />
-            <Route exact path='favorites' element={<>
+            <Route path='favorites' element={<>
               <Header handleLoginForm={handleLoginForm} />
               <Favorites hubData={hubData} searchField={searchField}/>
               <Footer />
             </>}/>
-            <Route exact path="confirm-email" element={<ConfirmEmailPage />} />
-            <Route exact path="reset-password" element={<ResetPasswordPage />} />
-            <Route exact path='forgot-password' element={<ForgotPasswordPage />} />
+            <Route path="confirm-email" element={<ConfirmEmailPage />} />
+            <Route path="reset-password" element={<ResetPasswordPage />} />
+            <Route path='forgot-password' element={<ForgotPasswordPage />} />
           </Routes>
       </BrowserRouter>
     </>
