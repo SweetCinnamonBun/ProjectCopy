@@ -22,7 +22,7 @@ export const Header = ({handleLoginForm}) => {
             {isLoggedIn ? (
                 <div className='login header-grid-item'>
                     <a href='/'>KOTI</a>
-                    <Link to="/favorites">
+                    <Link to="favorites">
                         <figure>
                             <img className='header-heart' src={wholeHeart} alt="heart"/>
                         </figure>
