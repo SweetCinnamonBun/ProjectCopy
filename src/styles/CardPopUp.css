@@ -7,7 +7,7 @@
   left: 0;
   top: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -15,7 +15,7 @@
 
 .cardPopup {
     background: var(--pink);
-    width: 70vh;
+    width: 70vw;
     /* padding: 1.2rem; */
     /* padding: 5.2rem 2.2rem 2.2rem 2.2rem;; */
     border-radius: 0.5rem;
@@ -122,7 +122,7 @@
     .cardPopup {
       bottom: 1rem;
       top: 1rem;
-      width: 95vh;
+      width: 95%;
     }
 
     .info-and-photo-container {
@@ -140,7 +140,7 @@
     .cardPopup {
       bottom: 0;
       top: 0;
-      width: 100vh;
+      width: 100%;
       border-radius: 0;
     }
 
