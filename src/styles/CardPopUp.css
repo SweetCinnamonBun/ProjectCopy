@@ -122,7 +122,7 @@
     .cardPopup {
       bottom: 1rem;
       top: 1rem;
-      width: 95%;
+      width: 95vh;
     }
 
     .info-and-photo-container {
@@ -140,7 +140,7 @@
     .cardPopup {
       bottom: 0;
       top: 0;
-      width: 100%;
+      width: 100vh;
       border-radius: 0;
     }
 
