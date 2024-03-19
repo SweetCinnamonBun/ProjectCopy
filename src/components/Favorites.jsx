@@ -18,6 +18,7 @@ import { useNavigate } from 'react-router-dom';
 
 export const Favorites = ({}) => {
 
+    //Here
     const [currentPage, setCurrentPage] = useState(1);
     const [itemsPerPage, setItemsPerPage] = useState(6);
     const [isBackwards, setIsBackwards] = useState(true);
