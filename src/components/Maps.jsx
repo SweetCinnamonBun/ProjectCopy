@@ -23,7 +23,7 @@ const center = {
 
 const libraries = ['places'];
 
-const API_BASE_URL = 'http://api.openweathermap.org/data/2.5/weather';
+const API_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const API_KEY = '9579c02081e7e4205ff7382ac3a9378f';
 
 export const getBuildingName = (building) => {
@@ -367,7 +367,7 @@ export const Maps = ({searchField, hubData}) => {
               {weatherData && (
                 <div className="weather-info">
                   <p>{Math.round(weatherData.main.temp - 273.15)} °C</p>
-                  <img src={`http://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} alt="Weather Icon" />
+                  <img src={`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`} alt="Weather Icon" />
                 </div>
               )} 
             </div>
