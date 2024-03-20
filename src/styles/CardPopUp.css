@@ -131,7 +131,7 @@
   .aukiolo-aika >* {
     font-family: 'Mulish', sans-serif;
   }
-
+/* 
   @media only screen and (max-width: 768px) {
 
 
@@ -155,7 +155,7 @@
     }
    */
 
-    .info-and-photo-container {
+    /* .info-and-photo-container {
       flex-direction: column;
       margin-bottom: 2rem;
     }
@@ -163,9 +163,9 @@
     .picture_popup {
       margin-block-start: 2rem;
     }
-  }
+  }  */
 
-  @media only screen and (max-width: 425px) {
+  /* @media only screen and (max-width: 425px) {
 
     .cardPopup {
       bottom: 0;
@@ -195,4 +195,4 @@
    
 
 
-  }
+  } */
