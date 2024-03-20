@@ -176,9 +176,6 @@
       margin-block-end: 5rem;
     }
 
-    .picture_popup {
-      margin-block-start: 2rem;
-    }
   }  
   @media only screen and (max-width: 1600px) {
 
@@ -223,9 +220,6 @@
       margin-block-end: 5rem;
     }
 
-    .picture_popup {
-      margin-block-start: 2rem;
-    }
   }  
 
   @media only screen and (max-width: 1400px) {
@@ -271,9 +265,6 @@
       margin-block-end: 5rem;
     }
 
-    .picture_popup {
-      margin-block-start: 2rem;
-    }
   }  
   @media only screen and (max-width: 1000px) {
 
@@ -318,9 +309,6 @@
       margin-block-end: 5rem;
     }
 
-    .picture_popup {
-      margin-block-start: 2rem;
-    }
   }  
 
   @media only screen and (max-width: 768px) {
