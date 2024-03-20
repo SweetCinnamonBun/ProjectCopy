@@ -24,7 +24,7 @@ const center = {
 const libraries = ['places'];
 
 const API_BASE_URL = 'http://api.openweathermap.org/data/2.5/weather';
-const API_KEY = '2c6d0f4f801249837dd5e99710d49e64';
+const API_KEY = '35dec3319d83cf06f2f8ec8203a6ae1a';
 
 export const getBuildingName = (building) => {
   if (!building || !building.productInformations || !building.productImages) {
