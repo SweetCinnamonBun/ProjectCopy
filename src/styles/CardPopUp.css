@@ -134,15 +134,15 @@
   @media only screen and (max-width: 768px) {
 
 
-    .cardPopup {
+    /* .cardPopup {
       bottom: 1rem;
       top: 1rem;
       width: 95%;
-    }
+    } */
 
     .cardPopup {
       background: var(--pink);
-      width: 70%;
+      width: 70vw;
       border-radius: 0.5rem;
       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
       position: fixed;
