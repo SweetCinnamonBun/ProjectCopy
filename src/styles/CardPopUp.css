@@ -214,9 +214,11 @@
       justify-content: center;
     }
 
-   .info-and-photo-container {
-      flex-direction: column;
-      margin-bottom: 2rem;
+    .info-and-photo-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-block-end: 5rem;
     }
 
     .picture_popup {
